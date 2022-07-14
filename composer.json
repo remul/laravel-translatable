@@ -52,10 +52,17 @@
         "test": "vendor/bin/pest"
     },
     "config": {
+<<<<<<< HEAD
         "allow-plugins": {
             "pestphp/pest-plugin": true
         },
         "sort-packages": true
+=======
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+>>>>>>> 593155f (Add pestphp/pest-plugin to the allowed composer plugins)
     },
     "extra": {
         "laravel": {
