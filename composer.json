@@ -28,13 +28,8 @@
     ],
     "require": {
         "php": "^8.0",
-<<<<<<< HEAD
         "illuminate/database": "^9.0|^10.0",
         "illuminate/support": "^9.0|^10.0",
-=======
-        "illuminate/database": "^9.20",
-        "illuminate/support": "^9.20",
->>>>>>> 902229f (Bump Laravel version to ^9.20)
         "spatie/laravel-package-tools": "^1.11"
     },
     "require-dev": {
@@ -57,17 +52,10 @@
         "test": "vendor/bin/pest"
     },
     "config": {
-<<<<<<< HEAD
-        "allow-plugins": {
-            "pestphp/pest-plugin": true
-        },
-        "sort-packages": true
-=======
         "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
->>>>>>> 593155f (Add pestphp/pest-plugin to the allowed composer plugins)
     },
     "extra": {
         "laravel": {
