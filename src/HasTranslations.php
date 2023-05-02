@@ -142,7 +142,8 @@ trait HasTranslations
             $this->attributes = array_merge(
                 $this->attributes,
                 $this->normalizeCastClassResponse(
-                    $key, $callback($value, $this->attributes, $locale)
+                    $key,
+                    $callback($value, $this->attributes, $locale)
                 )
             );
 

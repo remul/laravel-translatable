@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Casts\Attribute;
+use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Storage;
 use Spatie\Translatable\Exceptions\AttributeIsNotTranslatable;
 use Spatie\Translatable\Facades\Translatable;
@@ -442,7 +442,7 @@ it('can use accessor attributes on translated attributes', function () {
         protected function name(): Attribute
         {
             return Attribute::make(
-                get: fn ($value) =>  "I just accessed {$value}",
+                get: fn ($value) => "I just accessed {$value}",
             );
         }
     };
